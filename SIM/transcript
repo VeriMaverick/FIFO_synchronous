@@ -1,0 +1,53 @@
+# Reading pref.tcl
+# //  Questa Sim-64
+# //  Version 2020.1 win64 Jan 28 2020
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# OpenFile {D:/SK Hynix BC501/Open RTL/Synchronous FIFO/SIM/Synchronous FIFO.mpf}
+# Loading project Synchronous FIFO
+# Compile of Synchronous_FIFO.v was successful.
+# Compile of Synchronous_FIFO_TB.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.Synchronous_FIFO_TB -voptargs=+acc
+# vsim -gui work.Synchronous_FIFO_TB -voptargs="+acc" 
+# Start time: 10:34:31 on Jan 13,2024
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.Synchronous_FIFO_TB(fast)
+# Loading work.Synchronous_FIFO(fast)
+add wave -position insertpoint  \
+sim:/Synchronous_FIFO_TB/DATA_WIDTH \
+sim:/Synchronous_FIFO_TB/ADDR_WIDTH \
+sim:/Synchronous_FIFO_TB/CYCLE \
+sim:/Synchronous_FIFO_TB/clk \
+sim:/Synchronous_FIFO_TB/rst_n \
+sim:/Synchronous_FIFO_TB/wr_en \
+sim:/Synchronous_FIFO_TB/wr_data \
+sim:/Synchronous_FIFO_TB/rd_en \
+sim:/Synchronous_FIFO_TB/rd_data \
+sim:/Synchronous_FIFO_TB/empty \
+sim:/Synchronous_FIFO_TB/full \
+sim:/Synchronous_FIFO_TB/data_cnt \
+sim:/Synchronous_FIFO_TB/wr_err \
+sim:/Synchronous_FIFO_TB/rd_err \
+sim:/Synchronous_FIFO_TB/i
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.Synchronous_FIFO_TB(fast)
+# Loading work.Synchronous_FIFO(fast)
+run -all
+# ** Note: $stop    : D:/SK Hynix BC501/Open RTL/Synchronous FIFO/RTL/Synchronous_FIFO_TB.v(72)
+#    Time: 590 ns  Iteration: 0  Instance: /Synchronous_FIFO_TB
+# Break in Module Synchronous_FIFO_TB at D:/SK Hynix BC501/Open RTL/Synchronous FIFO/RTL/Synchronous_FIFO_TB.v line 72
+# End time: 10:38:37 on Jan 13,2024, Elapsed time: 0:04:06
+# Errors: 0, Warnings: 1

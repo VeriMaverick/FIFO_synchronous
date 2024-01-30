@@ -1,0 +1,69 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.01, Jan 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/13591/Desktop/Digital integrated circuit verification/Experiment_1
+T_opt
+!s110 1705059686
+V^26eP`FjoS`kJTRl:0Sb^1
+04 19 4 work Synchronous_FIFO_TB fast 0
+=1-5c61994b1e91-65a12566-30-2e18
+o-quiet -auto_acc_if_foreign -work work +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2020.1;71
+R0
+vSynchronous_FIFO
+Z2 !s110 1705113257
+!i10b 1
+!s100 71ceBmFS_;nkkoF>6k0F43
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I44NjFNTmbBf:ca?T8Mbi83
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 dD:/SK Hynix BC501/Open RTL/Synchronous FIFO/SIM
+w1705059621
+8D:/SK Hynix BC501/Open RTL/Synchronous FIFO/RTL/Synchronous_FIFO.v
+FD:/SK Hynix BC501/Open RTL/Synchronous FIFO/RTL/Synchronous_FIFO.v
+!i122 24
+L0 1 102
+Z6 OL;L;2020.1;71
+r1
+!s85 0
+31
+Z7 !s108 1705113257.000000
+!s107 D:/SK Hynix BC501/Open RTL/Synchronous FIFO/RTL/Synchronous_FIFO.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/SK Hynix BC501/Open RTL/Synchronous FIFO/RTL/Synchronous_FIFO.v|
+!i113 0
+Z8 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+n@synchronous_@f@i@f@o
+vSynchronous_FIFO_TB
+R2
+!i10b 1
+!s100 4d7n_:T1PQjDPRbLojh0>1
+R3
+ID9W<Lc0]BF=cnioUd5IiT0
+R4
+R5
+w1705054511
+8D:/SK Hynix BC501/Open RTL/Synchronous FIFO/RTL/Synchronous_FIFO_TB.v
+FD:/SK Hynix BC501/Open RTL/Synchronous FIFO/RTL/Synchronous_FIFO_TB.v
+!i122 25
+L0 2 75
+R6
+r1
+!s85 0
+31
+R7
+!s107 D:/SK Hynix BC501/Open RTL/Synchronous FIFO/RTL/Synchronous_FIFO_TB.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/SK Hynix BC501/Open RTL/Synchronous FIFO/RTL/Synchronous_FIFO_TB.v|
+!i113 0
+R8
+R1
+n@synchronous_@f@i@f@o_@t@b

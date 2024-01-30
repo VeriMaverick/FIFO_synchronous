@@ -1,0 +1,15 @@
+{D:/SK Hynix BC501/Open RTL/Synchronous FIFO/RTL/Synchronous_FIFO.v} {1 {vlog -work work -vopt -stats=none {D:/SK Hynix BC501/Open RTL/Synchronous FIFO/RTL/Synchronous_FIFO.v}
+QuestaSim-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
+-- Compiling module Synchronous_FIFO
+
+Top level modules:
+	Synchronous_FIFO
+
+} {} {}} {D:/SK Hynix BC501/Open RTL/Synchronous FIFO/RTL/Synchronous_FIFO_TB.v} {1 {vlog -work work -vopt -stats=none {D:/SK Hynix BC501/Open RTL/Synchronous FIFO/RTL/Synchronous_FIFO_TB.v}
+QuestaSim-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
+-- Compiling module Synchronous_FIFO_TB
+
+Top level modules:
+	Synchronous_FIFO_TB
+
+} {} {}}
